@@ -1,0 +1,25 @@
+package com.jpa.lab1.entity;
+
+@Entity
+publicclass Greet {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	privateintmessageId;
+	private String message;
+	
+	publicintgetMessageId() {
+		returnmessageId;
+	}
+	publicvoidsetMessageId(intmessageId) {
+		this.messageId = messageId;
+	}
+	public String getMessage() {
+		returnmessage;
+	}
+	publicvoidsetMessage(String message) {
+		this.message = message;
+	}
+	
+	
+}

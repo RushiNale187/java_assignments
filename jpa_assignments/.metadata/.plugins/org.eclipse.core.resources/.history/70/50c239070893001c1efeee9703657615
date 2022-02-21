@@ -1,0 +1,12 @@
+package com.jpa.lab1.main;
+
+import com.jpa.lab1.entity.Author;
+
+public class InsertAuthor 
+{
+	public static void main(String[] args) 
+	{
+		Author author = new Author();
+		
+	}
+}

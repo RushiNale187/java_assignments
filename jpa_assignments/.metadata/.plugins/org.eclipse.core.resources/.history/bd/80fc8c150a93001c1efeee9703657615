@@ -1,0 +1,9 @@
+package com.jpa.lab1.main;
+
+public class UpdateAuthor 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

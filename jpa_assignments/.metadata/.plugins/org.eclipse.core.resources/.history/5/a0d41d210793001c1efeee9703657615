@@ -1,0 +1,9 @@
+package com.jpa.lab1.main;
+
+public class InsertAuthor 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

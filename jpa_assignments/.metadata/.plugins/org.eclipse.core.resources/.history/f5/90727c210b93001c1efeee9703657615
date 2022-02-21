@@ -1,0 +1,29 @@
+package com.jpa.lab1.main;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class AuthorById 
+{
+	int author = 3;
+	
+	EntityManagerFactory  emf = Persistence.createEntityManagerFactory("JPA-PU");
+	EntityManager em = emf.createEntityManager();
+	
+	Product product = em.find(Product.class,productId);
+	
+	if(product != null)
+	{
+		System.out.println("Name: "+product.getPid());
+		System.out.println("Name: "+product.getPid());
+		System.out.println("Name: "+product.getPid());
+		System.out.println("Name: "+product.getPid());
+	}
+	else 
+	{
+		System.out.println("Product not exist with id :"+productId);
+	}
+	em.clear();
+	emf.close();
+}
