@@ -1,0 +1,12 @@
+package com.abc.exercise1;
+
+@FunctionalInterface
+interface Intf 
+{
+	int a(int x, int y);
+}
+
+public class Power 
+{
+	
+}

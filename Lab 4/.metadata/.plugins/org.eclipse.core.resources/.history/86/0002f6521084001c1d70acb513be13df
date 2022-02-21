@@ -1,0 +1,11 @@
+package com.cg.eis.service;
+
+import java.util.Scanner;
+
+public class Service
+{
+	interface EmployeeService 
+	{
+		
+	}
+}

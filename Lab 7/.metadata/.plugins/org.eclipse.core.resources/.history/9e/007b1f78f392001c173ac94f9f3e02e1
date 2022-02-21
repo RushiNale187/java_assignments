@@ -1,0 +1,10 @@
+package com.abc.exercise2;
+
+public interface Space 
+{
+	@FunctionalInterface
+	interface space
+	{
+		public StringBuffer s(String str);
+	}
+}

@@ -1,0 +1,13 @@
+package com.abc.exercise3;
+
+interface Authentication 
+{
+
+	boolean checkIdentity(String username, String password);
+
+}
+
+public class Validation 
+{
+	
+}

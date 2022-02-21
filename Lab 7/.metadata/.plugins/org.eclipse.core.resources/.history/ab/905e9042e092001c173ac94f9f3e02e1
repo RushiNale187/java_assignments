@@ -1,0 +1,22 @@
+package com.cg.eis.pl;
+
+import com.cg.eis.bean.Employee;
+import com.cg.eis.service.EmployeeServiceImpl;
+
+public class EmployeeMain 
+{
+	public static void main(String[] args) 
+	{
+		EmployeeServiceImpl empService = new EmployeeServiceImpl();
+		
+		Employee empDetails = empService.getEmpDetails();
+		
+		
+		String scheme = empService.insuranceScheme(empDetails.designation, empDetails.salary);
+		
+		Employee emp1 = new Employee(empDetails.id,empDetails.name,empDetails.designation,scheme,empDetails.salary);
+		
+		empService.EmpDetails(emp1);
+	}
+
+}

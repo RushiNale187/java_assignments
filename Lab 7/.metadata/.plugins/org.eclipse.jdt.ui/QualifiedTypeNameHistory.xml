@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.cg.eis.bean.Employee"/>
+    <fullyQualifiedTypeName name="com.cg.eis.service.EmployeeService"/>
+    <fullyQualifiedTypeName name="com.cg.eis.service.EmployeeServiceImpl"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="com.abc.exercise2.Space.space"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+</qualifiedTypeNameHistroy>

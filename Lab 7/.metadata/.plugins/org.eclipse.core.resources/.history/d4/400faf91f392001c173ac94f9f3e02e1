@@ -1,0 +1,6 @@
+package com.abc.exercise4;
+
+interface Factorial 
+{
+	int fact(int n);
+}

@@ -1,0 +1,52 @@
+package com.cg.eis.service;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+import com.cg.eis.bean.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService 
+{
+	Map<Integer,Employee> map = new HashMap<>();
+	
+	@Override
+	public void addEmployee(Employee emp) 
+	{
+		map.put(emp.id, emp);
+	}
+
+//	@Override
+//	public String insuranceScheme(String designation,double salary) 
+//	{
+//		String scheme;
+//		if(designation == "Clerk")
+//			scheme = "No Scheme";
+//		else if(designation == "System Associate")
+//			scheme = "Scheme C";
+//		else if(designation == "Programmer")
+//			scheme = "Scheme B";
+//		else
+//			scheme = "Scheme A";
+//		return scheme;
+//	}
+
+	@Override
+	public void getEmpDetailsByScheme(String insuranceScheme) 
+	{
+		for (Map.Entry<Integer,Employee> entry : map.entrySet())
+		{
+            Employee emp = entry.getValue();
+            if(insuranceScheme.equals(emp.insuranceScheme))
+            {
+            	
+            }
+		}
+//		System.out.println("Employee id :"+emp.id);
+//		System.out.println("Employee name :"+emp.name);
+//		System.out.println("Employee designation :"+emp.designation);
+//		System.out.println("Employee salary :"+emp.salary);
+//		System.out.println("Employee insurancescheme :"+emp.insuranceScheme);	
+	}
+
+}

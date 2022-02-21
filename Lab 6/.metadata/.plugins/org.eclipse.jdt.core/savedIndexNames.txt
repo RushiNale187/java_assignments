@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\pcc\Desktop\CG Training\Java + Dellboomi Jan 20th Batch - Technical Training Session\java_assignments\Lab 6\.metadata\.plugins\org.eclipse.jdt.core
+115667787.index
+1642175237.index

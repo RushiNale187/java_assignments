@@ -1,0 +1,5 @@
+package com.cg.springlab1.service;
+
+public class EmployeeService {
+
+}

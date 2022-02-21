@@ -1,0 +1,18 @@
+package com.cg.springlab1.service;
+
+import com.cg.springlab1.bean.Employee;
+
+public class EmployeeService 
+{
+	private Employee employee;
+	
+	public void setEmployee(Employee employee)
+	{
+		this.employee = employee;
+	}
+	
+	public void displayEmployeeData()
+	{
+		
+	}
+}

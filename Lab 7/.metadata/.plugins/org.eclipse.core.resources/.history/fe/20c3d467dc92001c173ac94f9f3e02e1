@@ -1,0 +1,66 @@
+package com.cg.eis.bean;
+
+public class Employee 
+{
+	private int eid;
+	private String ename;
+	private double salary;
+	private String designation;
+	private String insuranceScheme;
+	
+	public Employee(int eid, String ename, double salary, String designation, String insuranceScheme) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.salary = salary;
+		this.designation = designation;
+		this.insuranceScheme = insuranceScheme;
+	}
+
+	public int getEid() {
+		return eid;
+	}
+
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+
+	public String getEname() {
+		return ename;
+	}
+
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	public String getDesignation() {
+		return designation;
+	}
+
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+
+	public String getInsuranceScheme() {
+		return insuranceScheme;
+	}
+
+	public void setInsuranceScheme(String insuranceScheme) {
+		this.insuranceScheme = insuranceScheme;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [eid=" + eid + ", ename=" + ename + ", salary=" + salary + ", designation=" + designation
+				+ ", insuranceScheme=" + insuranceScheme + "]";
+	}
+	
+}

@@ -1,0 +1,22 @@
+package com.cg.eis.pl;
+
+import java.util.Scanner;
+
+public class Main 
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter employee id     :");
+		int id = sc.nextInt();
+		System.out.println("Enter employee name    :");
+		String name = sc.next();
+		System.out.println("Enter employee salary  :");
+		double salary = sc.nextDouble();
+		System.out.println("Enter designation      :");
+		String designation = sc.next();
+		System.out.println("Enter insurance scheme :");
+		String insuranceScheme = sc.next();
+	}
+}

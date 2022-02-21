@@ -1,0 +1,11 @@
+package com.cg.eis.service;
+
+import java.util.HashMap;
+
+import com.cg.eis.bean.Employee;
+
+public interface EmployeeService 
+{
+	public boolean addEmployee(HashMap<Employee> map);
+	
+}
