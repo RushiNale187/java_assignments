@@ -14,9 +14,9 @@ public class InsertAuthor
 		Author author = new Author();
 		
 		//author.setAuthorId(1);
-		author.setFirstName("Yashwant");
-		author.setMiddleName("P.");
-		author.setLastName("Kanetkar");
+		author.setFirstName("sachin");
+		author.setMiddleName("ramesh");
+		author.setLastName("tendulkar");
 		author.setPhoneNo("9010101010");
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA-PU");

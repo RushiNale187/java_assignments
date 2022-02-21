@@ -11,7 +11,7 @@ public class DeleteAuthor
 {
 	public static void main(String[] args) 
 	{
-		int authorId = 4;
+		int authorId = 3;
 		
 		EntityManagerFactory  emf = Persistence.createEntityManagerFactory("JPA-PU");
 		EntityManager em = emf.createEntityManager();

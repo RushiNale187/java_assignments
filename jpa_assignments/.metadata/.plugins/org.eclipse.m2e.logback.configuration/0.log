@@ -20448,3 +20448,22 @@ Caused by: java.util.NoSuchElementException: null
 	at java.base/java.util.Collections$EmptyIterator.next(Collections.java:4210)
 	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
 	... 16 common frames omitted
+2022-02-21 17:28:05,483 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-21 17:28:09,382 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:28:09,396 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-21 17:28:09,414 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:28:09,414 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pcc\Desktop\CG Training\Java + Dellboomi Jan 20th Batch - Technical Training Session\java_assignments\jpa_assignments\lab1\src\test\resources
+2022-02-21 17:29:03,540 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:29:03,550 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-21 17:29:03,552 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:29:03,553 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pcc\Desktop\CG Training\Java + Dellboomi Jan 20th Batch - Technical Training Session\java_assignments\jpa_assignments\lab1\src\test\resources
+2022-02-21 17:50:54,247 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:50:54,250 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-21 17:50:54,253 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:50:54,253 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pcc\Desktop\CG Training\Java + Dellboomi Jan 20th Batch - Technical Training Session\java_assignments\jpa_assignments\lab1\src\test\resources
+2022-02-21 17:51:05,615 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:51:05,617 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-21 17:51:05,618 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:51:05,619 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pcc\Desktop\CG Training\Java + Dellboomi Jan 20th Batch - Technical Training Session\java_assignments\jpa_assignments\lab1\src\test\resources
+2022-02-21 17:53:55,640 [Worker-29: Launching InsertAuthor] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:53:55,642 [Worker-29: Launching InsertAuthor] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
