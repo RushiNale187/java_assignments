@@ -25,12 +25,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.jpa.lab2"/>
 			<item value="com.jpa.lab1"/>
 		</list>
 		<list key="groupId">
 			<item value="com.jpa"/>
 		</list>
 		<list key="artifactId">
+			<item value="lab2"/>
 			<item value="lab1"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -67,5 +69,17 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
