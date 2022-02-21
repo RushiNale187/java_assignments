@@ -20467,3 +20467,5 @@ Caused by: java.util.NoSuchElementException: null
 2022-02-21 17:51:05,619 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pcc\Desktop\CG Training\Java + Dellboomi Jan 20th Batch - Technical Training Session\java_assignments\jpa_assignments\lab1\src\test\resources
 2022-02-21 17:53:55,640 [Worker-29: Launching InsertAuthor] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-21 17:53:55,642 [Worker-29: Launching InsertAuthor] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-02-21 17:53:55,644 [Worker-29: Launching InsertAuthor] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-21 17:53:55,644 [Worker-29: Launching InsertAuthor] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pcc\Desktop\CG Training\Java + Dellboomi Jan 20th Batch - Technical Training Session\java_assignments\jpa_assignments\lab1\src\test\resources
